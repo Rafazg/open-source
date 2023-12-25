@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<title>Rookie Coder Network | Quiz </title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="utf-8" />
+    <title>Rookie Coder Network | Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
     <header>
-
       <div class="logo-container">
-        <img src="/assets/imagens/Rokie.png" alt="">
+        <img src="../assets/imagens/Rokie.png" alt="" />
       </div>
 
       <div class="nav-menu">
         <ul>
-            <li> <a href="">Cursos Gratuitos</a></li>
-            <li> <a href="">Quem Somos</a></li>
-            <li> <a href="">Entrar</a></li>
-            <li class="esp"> <a href="">Registre-se</a></li>
+          <li><a href="">Cursos Gratuitos</a></li>
+          <li><a href="">Quem Somos?</a></li>
+          <li><a href="">Entrar</a></li>
         </ul>
+        <button class="btn-register">
+          <a href="">Registre-se</a>
+        </button>
       </div>
     </header>
 
-  <div class="quest">
-    <h1>Pergunta 01</h1>
-  </div>
+    <div class="quest">
+      <h1>Pergunta 01</h1>
+    </div>
 
-<div class="opcoes">
+    <div class="questions-container">
+      <h1 id="numQ">Pergunta 01</h1>
+      <h2 id="question">
+        O que mais chama sua atenção ao pensar em desenvolvimento de software?
+      </h2>
+      <div class="questões">
+        <button id="a" onclick="ffrontEnd(1)">
+          Criar interfaces de usuário atraentes e interativas.
+        </button>
+        <button id="b" onclick="fbackEnd(1)">
+          Desenvolver a lógica e a infraestrutura por trás das aplicações.
+        </button>
+        <button id="c" onclick="fcienD(1)">
+          Explorar e analisar dados para obter insights valiosos.
+        </button>
+        <button id="d" onclick="fdesnM(1)">
+          Desenvolver aplicativos otimizados para dispositivos móveis.
+        </button>
+        <button id="e" onclick="fdesnG(1)">
+          Criar experiências imersivas em mundos virtuais.
+        </button>
+        <button id="f" onclick="ffullStack(1)">
+          Trabalhar em todas as partes do desenvolvimento de software, da
+          interface ao servidor.
+        </button>
+      </div>
+    </div>
 
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<h1></h1>
-
-</div>
-
-<div class="seguir">
-  <h1>Seguir</h1>
-</div>
-    
-<h1>&copy - Rookie Coder Network</h1>
-</body>
+    <h1>&copy - Rookie Coder Network</h1>
+  </body>
 </html>
