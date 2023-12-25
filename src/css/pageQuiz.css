@@ -61,38 +61,70 @@ button a {
 /* ============ HEADER STYLE ============ */
 
 /* ============ BODY STYLE ============ */
+
+.questions{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 400px;
+  
+
+}
+
+#question {
+  color: #0da643;
+  text-align: center;
+}
+
+.btn-group1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+}
+.btn-group1 button {
+  width: 425px;
+  height: 88px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+.btn-group2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.btn-group2 button {
+  width: 425px;
+  height: 88px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+section{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+section .btn-follow {
+  width: 350px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+  background-color: #0da643;
+  color: #fff;
+
+}
 h1 {
   color: #fff;
   text-align: center;
   font-size: 24px;
 }
-.opcoes h1 {
-  background-color: #fff;
-  width: 425px;
-  height: 88px;
-  border-radius: 50px;
-}
-.quest h1 {
-  text-align: center;
-  font-size: 50px;
-}
-.seguir {
-    display: flex;
-    align-items: center;
-}
-.seguir h1 {
-  background-color: #0da643;
-  border-radius: 20px;
-  width: 500px;
-  height: 100px;
-  font-size: 30px;
-}
 
-.questions-container{
-  width: ;
-  height: ;
-  border: 2px dotted green;
-}
 /* ============ BODY STYLE ============ */
-
-

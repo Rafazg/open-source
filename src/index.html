@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Rookie Coder Network | Quiz</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/open-source/src/css/pageQuiz.css"
+    />
   </head>
   <body>
     <header>
@@ -22,38 +26,26 @@
         </button>
       </div>
     </header>
-
-    <div class="quest">
-      <h1>Pergunta 01</h1>
-    </div>
-
-    <div class="questions-container">
-      <h1 id="numQ">Pergunta 01</h1>
-      <h2 id="question">
-        O que mais chama sua atenção ao pensar em desenvolvimento de software?
-      </h2>
-      <div class="questões">
-        <button id="a" onclick="ffrontEnd(1)">
-          Criar interfaces de usuário atraentes e interativas.
-        </button>
-        <button id="b" onclick="fbackEnd(1)">
-          Desenvolver a lógica e a infraestrutura por trás das aplicações.
-        </button>
-        <button id="c" onclick="fcienD(1)">
-          Explorar e analisar dados para obter insights valiosos.
-        </button>
-        <button id="d" onclick="fdesnM(1)">
-          Desenvolver aplicativos otimizados para dispositivos móveis.
-        </button>
-        <button id="e" onclick="fdesnG(1)">
-          Criar experiências imersivas em mundos virtuais.
-        </button>
-        <button id="f" onclick="ffullStack(1)">
-          Trabalhar em todas as partes do desenvolvimento de software, da
-          interface ao servidor.
-        </button>
-      </div>
-    </div>
+    <main>
+      <section>
+        <h1 id="numQ" class="PerguntN">Pergunta 01</h1>
+        <h2 id="question" class="perg">O que mais chama sua atenção ao pensar em desenvolvimento de
+          software?</h2>
+        <div id="questions-container" class="questions">
+          <div class="btn-group1">
+          <button>Criar interfaces de usuário atraentes e interativas</button>
+          <button>Desenvolver a lógica e a infraestrutura por trás das aplicações.</button>
+          <button>Explorar e analisar dados para obter insights valiosos.</button>
+        </div>
+          <div class="btn-group2">
+          <button>Desenvolver aplicativos otimizados para dispositivos móveis.</button>
+          <button>Criar experiências imersivas em mundos virtuais.</button>
+          <button>Trabalhar em todas as partes do desenvolvimento de software, da interface ao servidor.</button>
+        </div>
+        </div>
+        <button class="btn-follow">Seguir</button>
+      </section>
+    </main>
 
     <h1>&copy - Rookie Coder Network</h1>
   </body>
