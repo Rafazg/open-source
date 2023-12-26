@@ -110,17 +110,6 @@ align-items: center;
 
 }
 
-section .btn-follow {
-  width: 350px;
-  height: 70px;
-  border-radius: 20px;
-  font-size: 26px;
-  border: none;
-  cursor: pointer;
-  background-color: #0da643;
-  color: #fff;
-
-}
 h1 {
   color: #fff;
   text-align: center;
