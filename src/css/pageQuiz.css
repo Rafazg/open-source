@@ -104,7 +104,8 @@ button a {
   height: 400px;
 }
 
-#question {
+.perg {
+  width: 850px;
   color: #0da643;
   text-align: center;
 }
