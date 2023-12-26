@@ -44,4 +44,4 @@ Se você é um profissional experiente disposto a se tornar mentor, ou se deseja
 - [@IsabeladpCastro](https://github.com/IsabeladpCastro)
 - [@JamesPeter](https://github.com/Jmspter)
 - [@Saymonmedeiros](https://github.com/saymonmedeiros)
-- [@Jamily]()
+
