@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../src/css/entrar.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../src/css/entrar.css">
 </head>
+
 <body>
-    <header>
-      <div class="logo-container">
-        <img src="../assets/imagens/Rokie.png" alt="" />
+  <header>
+    <div class="logo-container">
+      <img src="../assets/imagens/Rokie.png" alt="" />
+    </div>
+  </header>
+  <main>
+    <section class="login">
+      <h1>EN<span>TRAR</span></h1>
+      <div class="formulario">
+        <form action="/login" method="post">
+          <div class="formu">
+            <label for="email"><img src="../assets/imagens/icons8-nova-mensagem-96 1.png" alt=""></label>
+            <input type="text" id="email" name="e-mail" required>
+          </div>
+          <div class="formu">
+            <label for="password"><img src="../assets/imagens/senha 1.png" alt=""></label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit">Entrar</button>
+        </form>
       </div>
-    </header>
+    </section>
+  </main>
 </body>
+
 </html>
