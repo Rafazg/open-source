@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="../src/css/entrar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
@@ -19,19 +21,34 @@
       <h1>EN<span>TRAR</span></h1>
       <div class="formulario">
         <form action="/login" method="post">
+          
           <div class="formu">
-            <label for="email"><img src="../assets/imagens/icons8-nova-mensagem-96 1.png" alt=""></label>
+            <div class="email-container">
+            <label for="email"><i class="fa fa-envelope" style="font-size:40px;color:#0da643"></i></label>
             <input type="text" id="email" name="e-mail" required>
-          </div>
-          <div class="formu">
-            <label for="password"><img src="../assets/imagens/senha 1.png" alt=""></label>
+            </div>
+            <div class="password-container">
+            <label for="password"><i class="fa fa-lock" style="font-size:48px;color:#0da643; margin-right: 9px;"></i>
+            </label>
             <input type="password" id="password" name="password" required>
           </div>
+          <div class="btn-login">
           <button type="submit">Entrar</button>
+          </div>
         </form>
       </div>
+        <div class="second-login-container">
+        <img src="../assets/imagens/google.png" alt="">
+        <img src="../assets/imagens/github.png" alt="">
+        <div class="register-text-container">
+          <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </div>
+      
+      
+  
     </section>
   </main>
+  
 </body>
 
 </html>
