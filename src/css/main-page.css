@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -170,7 +171,9 @@ button a {
 }
 
 .sloganQuiz{
+    margin-right: 200px;
     margin-bottom: 100px;
+    width: 460px;
 }
 
 .sloganQuiz span {
@@ -192,3 +195,30 @@ button a {
     margin-right: 200px;
 }
 
+.playbtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.playbtn:hover{
+    filter: brightness(80%);
+
+}
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 130px; 
+    height: 130px;
+}
+.triangulo {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 56px solid #0da643;
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
