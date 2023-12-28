@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -112,126 +111,52 @@ button a:hover {
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
 /* ============ HEADER STYLE ============ */
-
-/* ============ BODY ============ */
-
-.mainTop {
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    gap: 20px;
 }
-.imgTop {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    margin-right: 100px;
-}
-.imgTop img {
-    height: 510px;
-}
-
-.slogan {
-    margin-left: 100px;
-    width: 620px;
-}
-.slogan h1 {
-    width: 430px;
+main h1 {
+    margin: 35px;
+    font-weight: bolder;
     color: white;
-    font-size: 40px;
-    font-weight: bold;
 }
-.slogan span {
+span {
     color: #0da643;
 }
-.slogan p {
-    margin-top: 20px;
-    font-size: 25px;
-    width: 550px;
+h1 {
     color: white;
+    font-weight: bolder;
 }
-.slogan button {
-    margin-top: 40px;
-    width: 300px;
-    height: 60px;
-    background-color: #0da643;
+a {
+    text-decoration: none;
+}
+.areaCont{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 570px;
+    background-color: #022941;
+    border-radius: 60px;
+}
+.imagem img {
+    width: 542px;
+}
+.texto {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 680px;
     color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 26px;
 }
-.slogan button:hover {
-    background-color: white;
+.texto h1:hover {
     color: #0da643;
-}
-
-.mainEnd {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.imgEnd {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-}
-.imgEnd img {
-    height: 550px;
-}
-
-.sloganQuiz{
-    margin-right: 200px;
-    margin-bottom: 100px;
-    width: 460px;
-}
-
-.sloganQuiz span {
-    color: #0da643;
-}
-
-.sloganQuiz h1 {
-    width: 460px;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.sloganQuiz p {
-    margin-top: 20px;
-    font-size: 25px;
-    width: 460px;
-    color: white;
-    margin-right: 200px;
-}
-
-.playbtn {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.circulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 100%;
-    width: 130px; 
-    height: 130px;
-}
-.circulo:hover{
-    filter: brightness(80%);
-}
-.triangulo {
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 56px solid #0da643;
-    transform: rotate(90deg);
-    margin-left: 10px;
 }
 footer {
+    margin-top: 30px;
     display: flex;
     align-items: end;
     justify-content: center;
