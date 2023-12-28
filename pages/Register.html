@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="../src/css/entrar.css">
+  <title>Resgistro</title>
+  <link rel="stylesheet" href="../src/css/Registro.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
@@ -18,22 +18,26 @@
   </header>
   <main>
     <section class="login">
-      <h1>EN<span>TRAR</span></h1>
+      <h1>REG<span>ISTRO</span></h1>
       <div class="formulario">
         <form action="/login" method="post">
           
           <div class="formu">
+            <div class="nickname-container">
+                <label for="nickname"><img src="../assets/imagens/nickname.png" alt="Apelido"></label>
+                <input type="text" id="nickname" name="nickname-register" placeholder="Nome de usuario" required> 
+            </div>
             <div class="email-container">
             <label for="email"><i class="fa fa-envelope" style="font-size:40px;color:#0da643"></i></label>
-            <input type="text" id="email" name="e-mail" placeholder="Email" required>
+            <input type="text" id="email" name="e-mail" placeholder="Digite seu email" required>
             </div>
             <div class="password-container">
             <label for="password"><i class="fa fa-lock" style="font-size:48px;color:#0da643; margin-right: 9px;"></i>
             </label>
-            <input type="password" id="password" name="password" placeholder="Senha" required>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
           </div>
           <div class="btn-login">
-          <button type="submit">Entrar</button>
+          <button type="submit">Registre-se</button>
           </div>
         </form>
       </div>
@@ -41,7 +45,7 @@
         <img src="../assets/imagens/google.png" alt="">
         <img src="../assets/imagens/github.png" alt="">
         <div class="register-text-container">
-          <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+          <p>Já tem uma conta? <a href="#">Entrar</a></p>
         </div>
       
       
