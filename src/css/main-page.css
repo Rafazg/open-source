@@ -97,10 +97,17 @@ li:hover:before {
     border: none;
     border-radius: 8px;
 }
-
+.btn-register:hover {
+    background-color: #fff;
+}
 button a {
+    width: 145px;
+    height: 35px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+button a:hover {
+    color: #0da643;
 }
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
@@ -153,6 +160,10 @@ button a {
     font-size: 20px;
     cursor: pointer;
 }
+.slogan button:hover {
+    background-color: white;
+    color: #0da643;
+}
 
 .mainEnd {
     display: flex;
@@ -202,10 +213,6 @@ button a {
     align-items: center;
     cursor: pointer;
 }
-.playbtn:hover{
-    filter: brightness(80%);
-
-}
 .circulo {
     display: flex;
     align-items: center;
@@ -214,6 +221,9 @@ button a {
     border-radius: 100%;
     width: 130px; 
     height: 130px;
+}
+.circulo:hover{
+    filter: brightness(80%);
 }
 .triangulo {
     border-left: 30px solid transparent;
