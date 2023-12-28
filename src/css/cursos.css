@@ -136,13 +136,13 @@ a {
 .areaCont{
     display: flex;
     justify-content: center;
-    width: 90%;
-    height: 570px;
+    width: 80%;
+    height: 370px;
     background-color: #022941;
     border-radius: 60px;
 }
 .imagem img {
-    width: 542px;
+    width: 350px;
 }
 .texto {
     margin-top: 30px;
@@ -150,7 +150,7 @@ a {
     flex-direction: column;
     width: 680px;
     color: white;
-    font-size: 26px;
+    font-size: 18px;
 }
 .texto h1:hover {
     color: #0da643;
