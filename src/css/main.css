@@ -20,18 +20,18 @@ header {
     align-items: center;
 }
 
-.logo-container {
+.logoContainer {
     width: 150px;
     height: 80px;
 }
 
-.logo-container img {
+.logoContainer img {
     width: 150px;
     height: 80px;
 }
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
-.nav-menu {
+.navMenu {
     display: flex;
     justify-content: end;
     width: 789px;
@@ -42,7 +42,7 @@ header {
     margin-right: 20px;
 }
 
-.nav-menu ul {
+.navMenu ul {
     display: flex;
     list-style-type: none;
     font-size: 18px;
@@ -50,16 +50,16 @@ header {
     align-items: center;
 }
 
-.nav-menu a {
+.navMenu a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-menu ul li {
+.navMenu ul li {
     margin-left: 45px;
 }
 
-.nav-menu li:hover {
+.navMenu li:hover {
     color: #0da643;
 }
 
@@ -90,14 +90,14 @@ li:hover:before {
     transform: scaleX(1);
 }
 
-.btn-register {
+.btnRegistro {
     width: 150px;
     height: 40px;
     background-color: #0da643;
     border: none;
     border-radius: 8px;
 }
-.btn-register:hover {
+.btnRegistro:hover {
     background-color: #fff;
 }
 button a {
@@ -206,7 +206,7 @@ button a:hover {
     margin-right: 200px;
 }
 
-.playbtn {
+.playBtn {
     margin-top: 20px;
     display: flex;
     justify-content: center;

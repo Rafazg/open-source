@@ -17,16 +17,16 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.logo-container {
+.logoContainer {
   width: 150px;
   height: 80px;
 }
-.logo-container img {
+.logoContainer img {
   width: 150px;
   height: 80px;
 }
 /* ============ HEADER STYLE // Nav-menu  ============ */
-.nav-menu {
+.navMenu {
   display: flex;
   justify-content: end;
   width: 789px;
@@ -36,7 +36,7 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 20px;
 }
-.nav-menu ul {
+.navMenu ul {
   display: flex;
   list-style-type: none;
   font-size: 18px;
@@ -44,14 +44,14 @@ header {
   align-items: center;
 }
 
-.nav-menu a {
+.navMenu a {
   text-decoration: none;
   color: #fff;
 }
-.nav-menu ul li {
+.navMenu ul li {
   margin-left: 45px;
 }
-.nav-menu li:hover{
+.navMenu li:hover{
   color: #0da643;
 }
 li {
@@ -78,7 +78,7 @@ li {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.btn-register {
+.btnRegister {
   width: 150px;
   height: 40px;
   background-color: #0da643;
@@ -95,7 +95,7 @@ button a {
 
 /* ============ BODY STYLE ============ */
 
-.questions{
+.questões{
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -110,26 +110,26 @@ button a {
   text-align: center;
 }
 
-.btn-group1 {
+.btnGrupo1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
  
 }
-.btn-group1 button {
+.btnGrupo1 button {
   width: 425px;
   height: 88px;
   border-radius: 50px;
   cursor: pointer;
   border: none;
 }
-.btn-group2 {
+.btnGrupo2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   
 }
-.btn-group2 button {
+.btnGrupo2 button {
   width: 425px;
   height: 88px;
   border-radius: 50px;
@@ -143,7 +143,7 @@ section{
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.btn-back {
+.btnVoltar {
   background-color: #0da643;
   width: 150px;
   height: 50px;
@@ -168,7 +168,7 @@ h1{
   font-size: 24px;
 }
 
-.caixa-pergunta{
+.caixaPergunta{
   display: flex;
   justify-content: center;
   align-items: center;

@@ -20,12 +20,12 @@ header {
   margin-bottom: 60px;
 }
 
-.logo-container {
+.logoContainer {
   width: 150px;
   height: 80px;
 }
 
-.logo-container img {
+.logoContainer img {
   width: 150px;
   height: 80px;
 }
@@ -58,11 +58,12 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 500px;
-  
+
 }
+
 .formulario {
   display: flex;
-  
+
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -110,39 +111,39 @@ button:hover {
 }
 
 
-.second-login-container img {
+.segLoginContainer img {
   width: 50px;
   height: 50px;
 
 }
 
-.second-login-container a {
+.segLoginContainer a {
   color: #04FF59;
   text-decoration: none;
 
 }
 
-.second-login-container p {
+.segLoginContainer p {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
 
-.second-login-container {
+.segLoginContainer {
   display: flex;
   width: 316px;
   height: 100px;
   gap: 15px;
 }
 
-.register-text-container {
- 
+.registroTextoContainer {
+
   width: 200px;
   height: 70px;
 
 }
 
-.email-container {
+.emailContainer {
   align-items: center;
   display: flex;
   width: 400px;
@@ -152,25 +153,26 @@ button:hover {
 
 
 
-.password-container {
+.senhaContainer {
   align-items: center;
   display: flex;
   width: 400px;
   height: 70px;
   gap: 5px;
-  
+
 }
 
-.password-container img {
+.senhaContainer img {
   width: 45px;
   height: 42px;
-  
+
 }
-.btn-login {
+
+.btnLogin {
   width: 202px;
   height: 43px;
   border-radius: 20px;
-  
+
 }
 
 
