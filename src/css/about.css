@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #171810;
+    height: 100vh;
+}
+
+/* ============ HEADER STYLE ============ */
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 150px;
+    height: 80px;
+}
+
+.logo-container img {
+    width: 150px;
+    height: 80px;
+}
+
+/* ============ HEADER STYLE // Nav-menu  ============ */
+.nav-menu {
+    display: flex;
+    justify-content: end;
+    width: 789px;
+    height: 80px;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu ul li {
+    margin-left: 45px;
+}
+
+.nav-menu li:hover {
+    color: #0da643;
+}
+
+li {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0da643;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.btn-register {
+    width: 150px;
+    height: 40px;
+    background-color: #0da643;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-register:hover {
+    background-color: #fff;
+}
+
+button a {
+    width: 145px;
+    height: 35px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button a:hover {
+    color: #0da643;
+}
+
+/* ============ HEADER STYLE // Nav-menu  ============ */
+/* ============ HEADER STYLE ============ */
+* {
+    box-sizing: border-box
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+/* Slideshow container */
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imageP img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.btnmov {
+    display: flex;
+    gap: 60px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #0da643;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    width: 400px;
+    height: 200px;
+    color: #f2f2f2;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    margin: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 0;
+}
+
+.next {
+    text-align: end;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #0da643;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #022941;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+main {
+    margin: 80px;
+}
