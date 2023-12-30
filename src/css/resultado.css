@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #171810;
     height: 100vh;
@@ -6,37 +13,38 @@ body {
 /* ============ HEADER STYLE ============ */
 header {
     width: 100%;
-    height: 142px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logoContainer {
-    width: 284px;
-    height: 139px;
+    width: 150px;
+    height: 80px;
 }
 
 .logoContainer img {
-    width: 284px;
-    height: 139px;
+    width: 150px;
+    height: 80px;
 }
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
 .navMenu {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     width: 789px;
-    height: 90px;
-    justify-items: center;
+    height: 80px;
     align-items: center;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
 }
 
 .navMenu ul {
     display: flex;
     list-style-type: none;
-    font-size: 24px;
+    font-size: 18px;
     justify-items: center;
     align-items: center;
 }
@@ -50,141 +58,183 @@ header {
     margin-left: 45px;
 }
 
-.btnRegister {
-    width: 202px;
-    height: 43px;
+.navMenu li:hover {
+    color: #0da643;
+}
+
+li {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0da643;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.btnRegistro {
+    width: 150px;
+    height: 40px;
     background-color: #0da643;
     border: none;
     border-radius: 8px;
 }
 
+.btnRegistro:hover {
+    background-color: #fff;
+}
+
 button a {
-    font-size: 24px;
-    font-family: "Times New Roman", Times, serif;
+    width: 145px;
+    height: 35px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button a:hover {
+    color: #0da643;
 }
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
-
 /* ============ HEADER STYLE ============ */
 
 /* ============ BODY STYLE ============ */
-strong {
-    width: 622px;
-    height: 91px;
-    border: none;
-    color: #fff;
-    font-family: Inter;
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
 }
 
 span {
-    width: 622px;
-    height: 91px;
-    border: none;
-    color: #07F25A;
+    color: #0da643;
 }
 
-.descContainer {
+.desc {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 800px;
-    height: 866px;
-}
-
-.lenguagesContainer {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 534px;
-    height: 748px;
-    border: 2px solid rgb(204, 159, 123);
+    width: 600px;
 }
 
-main {
+.desc img {
+    width: 400px;
+}
+
+.textdesc {
+    width: 450px;
+}
+
+.recomendações {
     display: flex;
-    justify-content: space-around;
-    width: 100;
-    height: 100vh;
-}
-
-.imgContainer {
-    width: 469px;
-    height: 456px;
-}
-
-.textBack p {
-    color: #FFF;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.cobrinhaFoto {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.cobrinhaFoto img {
-    width: 263px;
-    height: 281px;
-}
-
-.cobrinhaFoto button {
     width: 500px;
-    height: 100px;
+}
+.recomendações button {
+    margin: 20px;
+    width: 280px;
+    height: 55px;
+    background-color: #0da643;
+    color: #fff;
+    border: none;
     border-radius: 20px;
-    background-color: #0DA643;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    cursor: pointer;
+}
+.recomendações button:hover {
+    background-color: #fff;
+    color: #0da643;
+}
+.rH1 {
+    width: 285px;
 }
 
-.lenguagesContainer h1 {
-    color: #0DA643;
-    text-align: center;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+.carousel {
+    display: flex;
+    max-width: 450px;
+    position: relative;
+    margin: auto;
 }
+
+.curso {
+    display: none;
+}
+.cursoimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cursoimg{
+    width: 200px;
+}
+
 .prev,
 .next {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    position: relative;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
     color: #0da643;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.cursotxt {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

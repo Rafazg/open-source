@@ -187,6 +187,7 @@ h1 {
 
 /* Caption text */
 .text {
+    margin: 20px;
     width: 400px;
     height: 200px;
     color: #f2f2f2;

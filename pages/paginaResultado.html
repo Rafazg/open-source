@@ -3,59 +3,51 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Rookie Coder Network | Quiz</title>
+  <title>Rookie Coder Network | Resultado Quiz</title>
   <link rel="stylesheet" type="text/css" href="../src/css/resultado.css" />
 </head>
 
 <body>
   <header>
     <div class="logoContainer">
-      <img src="../assets/imagens/Rokie.png" alt="" />
+      <a href="main-page.html"><img src="../assets/imagens/Rokie.png" alt="" /></a>
     </div>
-
     <div class="navMenu">
       <ul>
-        <li><a href="PaginaCursos.html">Cursos Gratuitos</a></li>
-        <li><a href="PaginaSobre.html">Quem Somos?</a></li>
-        <li><a href="PaginaEntrar.html">Entrar</a></li>
+        <li><a href="paginaMain.html">Página Principal</a></li>
+        <li><a href="paginaSobre.html">Quem Somos?</a></li>
+        <li><a href="paginaEntrar.html">Entrar</a></li>
       </ul>
-      <button class="btnRegister">
-        <a href="PaginaRegistrar.html">Registre-se</a>
+      <button class="btnRegistro">
+        <a href="paginaRegistro.html">Registre-se</a>
       </button>
     </div>
   </header>
 
   <main>
-    <div class="descContainer">
-      <h1> <strong class="strong"> BACK-<span class="span">END</span> </strong> </h1>
-      <div class="imgContainer">
-        <img
-          src="https://cdn.discordapp.com/attachments/1186399181737316352/1190036789029777520/biximPC.png?ex=65a05720&is=658de220&hm=7e1a27cd68ac2de0656a5d65328a3df8e1798b6fae803bf56f090fea3b3debd4&"
-          alt="">
-      </div>
-      <div class="textBack">
-        <p> Um desenvolvedor back-end é um profissional de tecnologia da informação responsável pela criação e
-          manutenção da parte "invisível" de um aplicativo ou site,
-          que lida com o processamento de dados, lógica de negócios e interações com o servidor. Eles são fundamentais
-          para garantir que os sistemas funcionem de maneira
-          eficiente e segura. Aqui estão as principais responsabilidades e tecnologias associadas a um desenvolvedor
-          back-end:</p>
-
-      </div>
+    <div class="desc">
+      <h1>BACK<span>-END</span></h1>
+      <img src="../assets/imagens/resultado.png" alt="">
+      <p class="textdesc">Um desenvolvedor back-end é um profissional de tecnologia da informação responsável pela criação e manutenção da parte "invisível" de um aplicativo ou site, que lida com o processamento de dados, lógica de negócios e interações com o servidor. Eles são fundamentais para garantir que os sistemas funcionem de maneira eficiente e segura. Aqui estão as principais responsabilidades e tecnologias associadas a um desenvolvedor back-end</p>
     </div>
-    <div class="lenguagesContainer">
-      <div> 
-        <h1>
-          <strong class="strong"> <span>CURSOS</span> RECOMENDADOS</strong>
-        </h1>
+    <div class="recomendações">
+      <h1 class="rH1"><span>CURSOS </span>RECOMENDADOS</h1>
+      <div class="carousel">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <div class="curso fade">
+          <div class="cursotxt">Python</div>
+          <img src="../assets/imagens/phyton.png" class="cursoimg" >
+        </div>
+        <div class="curso fade">
+          <div class="cursotxt">JavaScript</div>
+          <img src="../assets/imagens/js.png" class="cursoimg">
+        </div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div class="cobrinhaFoto">
-        <img src="../assets/imagens/phyton.png" alt="">
-        <button>Ver mais</button>
-
-      </div>
+      <button>Ver mais</button>
     </div>
   </main>
+  <script src="../src/js/resultado.js"></script>
 </body>
 
 </html>

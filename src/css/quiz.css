@@ -143,15 +143,6 @@ section{
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.btnVoltar {
-  background-color: #0da643;
-  width: 150px;
-  height: 50px;
-  border-radius: 20px;
-  font-size: 15px;
-  cursor: pointer;
-  color: #fff;
-  }
 
 footer{
   display: flex;
