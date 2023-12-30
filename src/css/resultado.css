@@ -119,6 +119,7 @@ button a:hover {
 main {
     margin: 20px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -250,3 +251,8 @@ p {
     justify-content: center;
     color: white;
 }
+@media (max-width: 600px) {
+    main {
+      flex-direction: column; /* ou qualquer valor desejado para dispositivos móveis */
+    }
+  }
