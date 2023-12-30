@@ -133,42 +133,42 @@ let result = '';
         if (frotEnd > backEnd && frotEnd > cienD && frotEnd > desnM && frotEnd > desnG && frotEnd > fullStack) {
             result = "Front-End"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (backEnd > frotEnd && backEnd > cienD && backEnd > desnM && backEnd > desnG && backEnd > fullStack) {
             result = "Back-End"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (cienD > frotEnd && cienD > backEnd && cienD > desnM && cienD > desnG && cienD > fullStack) {
             result = "Ciência de Dados"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (desnM > frotEnd && desnM > backEnd && desnM > cienD && desnM > desnG && desnM > fullStack) {
             result = "Desenvolvimento Mobile"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (desnG > frotEnd && desnG > backEnd && desnG > cienD && desnG > desnM && desnG > fullStack){
             result = "Desenvolvimento de Jogos"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (fullStack > frotEnd && fullStack > backEnd && fullStack > cienD && fullStack > desnG && fullStack > desnM){
             result = "Full-Stack"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (frotEnd == backEnd && frotEnd != 0 && backEnd != 0){
             result = "Full-Stack"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (cienD == desnM && cienD != 0 && desnM != 0){
             result = "Analise de Dados"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else if (desnG == fullStack && desnG != 0 && fullStack != 0){
             result = "Desenvolvimento de Jogos"  
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         } else {
             result = "Desenvolvimento de Software"
             localStorage.setItem("rItem", result)
-            window.location.href = "#pagina-resultado"
+            window.location.href = "../pages/paginaResultado.html"
         }
     }

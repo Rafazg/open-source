@@ -124,21 +124,24 @@ main {
     gap: 50px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-}
-
 p {
     color: #fff;
     text-align: justify;
 }
 
-span {
+.nCurso {
+    display: flex;
+}
+.corUm {
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+}
+.corDois {
+    text-align: center;
+    font-weight: bolder;
     color: #0da643;
 }
-
 .desc {
     display: flex;
     flex-direction: column;
@@ -194,15 +197,17 @@ span {
     align-items: center;
 }
 .cursoimg{
-    width: 200px;
+    width: 180px;
 }
 
 .prev,
 .next {
     margin: 50px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
     cursor: pointer;
     color: #0da643;
     font-weight: bold;
@@ -238,3 +243,10 @@ span {
     from {opacity: .4}
     to {opacity: 1}
   }
+  footer {
+    padding: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+}
