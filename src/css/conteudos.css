@@ -114,11 +114,19 @@ main {
   height: 100%;
   border: 2px solid red;
 }
+main h1 {
+    color: #fff;
+}
+
+main span {
+    color: #0da643;
+}
 
 .contentsContainer {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
   width: 500px;
   height: 100%;
 }
@@ -142,6 +150,7 @@ main {
     background-color: #022941;
     border-radius: 60px;
     gap: 20px;
+    margin-top: 20px;
     
 }
 
@@ -180,6 +189,7 @@ main {
     background-color: #022941;
     border-radius: 60px;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .artigoContainer2 {
@@ -191,6 +201,7 @@ main {
     background-color: #022941;
     border-radius: 60px;
     gap: 20px;
+    margin-top: 20px;
 }
 .artgConteiner1 {
     width: 151px;
@@ -228,6 +239,7 @@ main {
     background-color: #022941;
     border-radius: 60px;
     gap: 20px;
+    margin-top: 20px;
 }
 .textContainer1 {
     width: 151px;
