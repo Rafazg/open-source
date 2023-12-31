@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
+    <title>Rookie Coder Network | Cursos</title>
     <link rel="stylesheet" href="../src/css/cursos.css">
 </head>
 <body>
-    <header>
-        <div class="logoContainer">
-            <a href="paginaMain.html"><img src="../assets/imagens/Rokie.png" alt="" /></a>
-        </div>
-        <div class="navMenu">
-            <ul>
-                <li><a href="paginaMain.html">Página Principal</a></li>
-                <li><a href="paginaSobre.html">Quem Somos?</a></li>
-                <li><a href="paginaEntrar.html">Entrar</a></li>
+    <header class="header">
+        <nav class="nav">
+            <a href="paginaMain.html" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="paginaMain.html">Página Principal</a></li>
+                <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
             </ul>
-            <button class="btnRegistro">
-                <a href="paginaRegistro.html">Registre-se</a>
-            </button>
-        </div>
+        </nav>
     </header>
     <main>
         <h1>Áreas da TI</h1>
@@ -78,12 +75,17 @@
             </div>
             <div class="texto">
                 <a href=""><h1>Full-Stack <span>+</span></h1></a>
-                <p>
-                    O desenvolvedor full stack é aquele profissional multitarefa que cobre várias frentes na área de TI, pois pode trabalhar com diferentes linguagens. Habilitado a oferecer um suporte completo, esse especialista está muito valorizado no mercado.      
+                <p> O desenvolvedor full stack é aquele profissional multitarefa que cobre várias frentes na área de TI, pois pode trabalhar com diferentes linguagens. Habilitado a oferecer um suporte completo, esse especialista está muito valorizado no mercado.      
         </section>
     </main>
     <footer>
         <p>&copy;- Rookie Coder Network</p>
     </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+
+        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
 </body>
 </html>

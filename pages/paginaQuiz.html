@@ -10,22 +10,18 @@
     />
   </head>
   <body>
-    <header>
-      <div class="logoContainer">
-        <a href="paginaMain.html"><img src="../assets/imagens/Rokie.png" alt="" /></a>
-      </div>
-
-      <div class="navMenu">
-        <ul>
-          <li><a href="paginaCursos.html">Cursos Gratuitos</a></li>
-          <li><a href="paginaSobre.html">Quem Somos?</a></li>
-          <li><a href="paginaEntrar.html">Entrar</a></li>
-        </ul>
-        <button class="btnRegister">
-          <a href="paginaRegistro.html">Registre-se</a>
-        </button>
-      </div>
-    </header>
+    <header class="header">
+      <nav class="nav">
+          <a href="paginaMain.html" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
+              <li class="normie"><a href="paginaMain.html">Página Principal</a></li>
+              <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+              <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+              <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
+          </ul>
+      </nav>
+  </header>
     <main>
       <section>
         <div class="caixaPergunta">
@@ -51,7 +47,12 @@
     <footer>
       <p>&copy;- Rookie Coder Network</p>
     </footer>
-    
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav");
+
+      hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+  </script>
     <script src="../src/js/quizScript.js"></script>
   </body>
 </html>

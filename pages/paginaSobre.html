@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <title>Rookie Coder Network | Sobre</title>
     <link rel="stylesheet" href="../src/css/sobre.css">
 </head>
 <body>
-    <header>
-        <div class="logoContainer">
-            <a href="paginaMain.html"><img src="../assets/imagens/Rokie.png" alt="" /></a>
-        </div>
-        <div class="navMenu">
-            <ul>
-                <li><a href="paginaCursos.html">Cursos</a></li>
-                <li><a href="paginaMain.html">Pagina Principal</a></li>
-                <li><a href="paginaEntrar.html">Entrar</a></li>
+    <header class="header">
+        <nav class="nav">
+            <a href="paginaMain.html" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="paginaMain.html">Página Principal</a></li>
+                <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+                <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
             </ul>
-            <button class="btnRegistro">
-                <a href="paginaRegistro.html">Registre-se</a>
-            </button>
-        </div>
+        </nav>
     </header>
     <main>
         <h1>DESENVOLVEDORES</h1>
@@ -52,9 +49,15 @@
             </div>
 
             <div class="mySlides fade">
-                <div class="numberText">James Peter</div>
-                <div class="imageP"><img src="../assets/imagens/matt.jpeg"></div>
-                <div class="text">Esse sou eu, o cara anterior copiou minha foto</div>
+                <div class="numberText">James Peter Barbosa</div>
+                <div class="imageP"><img src="../assets/imagens/james.jpeg"></div>
+                <div class="text">Olá, sou um entusiasta da programação e estudante dedicado na UFRN, tenho 18 anos, trilhando meu caminho para me tornar um desenvolvedor full-stack. Apaixonado por desafios e aprendizado contínuo. (dica: Na duvida pergunte pro Rafa).</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numberText">Saymon Medeiros</div>
+                <div class="imageP"><img src="../assets/imagens/saymon.jpeg"></div>
+                <div class="text">Fala pessoal! Me chamo Saymon e tenho 23 anos, sou apaixonado por tecnologia e atualmente estou focado nos estudos de HTML e CSS. Meu objetivo é me tornar um desenvolvedor fullstack, abrangendo tanto o desenvolvimento de front-end  quanto o de back-end. Estou entusiasmado com minha jornada de aprendizado e ansioso para construir uma carreira sólida no desenvolvimento web.</div>
             </div>
           
             <!-- Next and previous buttons -->
@@ -66,12 +69,19 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
           </div>
           <br>
     </main>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+
+        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
     <script src="../src/js/about.js"></script>
 </body>
 </html>

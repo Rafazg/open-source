@@ -4,25 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main-Page</title>
+    <title>Rookie Coder Network | Main-Page</title>
     <link rel="stylesheet" href="../src/css/main.css">
 </head>
 
 <body>
-    <header>
-        <div class="logoContainer">
-            <img src="../assets/imagens/Rokie.png" alt="" />
-        </div>
-        <div class="navMenu">
-            <ul>
-                <li><a href="paginaCursos.html">Cursos Gratuitos</a></li>
-                <li><a href="paginaSobre.html">Quem Somos?</a></li>
-                <li><a href="paginaEntrar.html">Entrar</a></li>
+    <header class="header">
+        <nav class="nav">
+            <a href="paginaMain.html" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+                <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
             </ul>
-            <button class="btnRegistro">
-                <a href="paginaRegistro.html">Registre-se</a>
-            </button>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="mainTop">
@@ -55,6 +52,12 @@
     <footer>
         <p>&copy;- Rookie Coder Network</p>
     </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+
+        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
 </body>
 
 </html>
