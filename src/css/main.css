@@ -331,30 +331,37 @@ footer {
     }
     .imgTop img {
         margin: 30px;
-        height: 400px;
+        height: 200px;
     }
     .slogan {
         margin-top: 30px;
-        width: 520px;
+        margin-left: 0;
+        width: 300px;
+    }
+    .slogan h1 {
+        font-size: 20px;
+        width: 300px;
     }
     .slogan p {
         margin-top: 20px;
-        font-size: 25px;
-        width: 450px;
+        font-size: 15px;
+        width: 300px;
         color: white;
     }
     .sloganQuiz{
         margin-right: 0;
-        width: 360px;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .sloganQuiz h1 {
-        width: 360px;
+        font-size: 20px;
+        width: 90%;
     }
     
     .sloganQuiz p {
-        width: 360px;
+        font-size: 15px;
+        width: 90%;
     }
 }
