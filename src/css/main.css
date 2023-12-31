@@ -233,6 +233,7 @@ a {
     filter: brightness(80%);
 }
 .triangulo {
+    position: relative;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-bottom: 56px solid #0da643;
@@ -250,6 +251,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mobileBtn {
+    display: none;
+    margin-top: 40px;
+    width: 145px;
+    height: 40px;
+    background-color: #0da643;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
 }
 @media (max-width: 750px) {
     .hamburger {
@@ -320,6 +332,11 @@ footer {
     }
     .mainTop {
         flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 30px;
+        margin-top: 0;
+        width: 80%;
     }
     .mainEnd {
         flex-direction: column;
@@ -330,13 +347,17 @@ footer {
         display: none;
     }
     .imgTop img {
-        margin: 30px;
         height: 200px;
+    }
+    .imgTop {
+        margin: 0;
+        width: 230px;
+        padding: 30px;
     }
     .slogan {
         margin-top: 30px;
         margin-left: 0;
-        width: 300px;
+        width: 80%;
     }
     .slogan h1 {
         font-size: 20px;
@@ -345,7 +366,7 @@ footer {
     .slogan p {
         margin-top: 20px;
         font-size: 15px;
-        width: 300px;
+        width: 100%;
         color: white;
     }
     .sloganQuiz{
@@ -363,5 +384,16 @@ footer {
     .sloganQuiz p {
         font-size: 15px;
         width: 90%;
+    }
+    .slogan button {
+        width: 145px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .anco {
+        display: none;
+    }
+    .mobileBtn {
+        display: block;
     }
 }
