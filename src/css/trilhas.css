@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-/* ============ HEADER STYLE ============ */
+/* ============ HEADER STYLE // Nav-menu  ============ */
 a {
     text-decoration: none;
 }
@@ -119,65 +119,78 @@ a {
     transition: 0.3s;
 }
 /* ============ HEADER STYLE ============ */
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-main h1 {
-    margin-top: 35px;
-    font-weight: bolder;
+
+h1 {
+    text-align: center;
     color: white;
+    font-weight: bolder;
+    margin: 10px 0;
 }
 span {
     color: #0da643;
 }
-h1 {
-    color: white;
-    font-weight: bolder;
+h2 {
+    color: #0da643;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
 }
-a {
-    text-decoration: none;
-}
-.p {
-    color: white;
-    background-color: #0da643;
-    padding: 10px;
-    width: 380px;
+h3 {
+    color: #0da643;
+    font-weight: bold;
     text-align: justify;
-    border-radius: 5px;
 }
-.areaCont{
+p {
+    text-align: justify;
+    color: white;
+}
+section {
     display: flex;
     justify-content: center;
-    width: 80%;
-    height: 370px;
-    background-color: #022941;
-    border-radius: 60px;
+    gap: 10px;
 }
-.imagem img {
-    width: 350px;
-}
-.texto {
-    margin-top: 30px;
+.modulo {
     display: flex;
     flex-direction: column;
-    width: 680px;
-    color: white;
-    font-size: 18px;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    background-color: #022941;
+    border-radius: 20px;
 }
-.texto h1:hover {
+.descrição {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 340px;
+}
+.descrição ul {
+    margin-left: 30px;
+    color: white;
+}
+.btn button {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.modulo button {
+    margin: 30px 0;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0da643;
+    color: white;
+    cursor: pointer;
+}
+.modulo button:hover {
+    background-color: white;
     color: #0da643;
 }
-footer {
-    margin-top: 30px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    color: white;
-}
+
+
+
+/*Mobile*/
 @media (max-width: 1100px) {
     .hamburger {
         display: block;
@@ -198,7 +211,6 @@ footer {
         justify-content: space-around;
         align-items: center;
         gap: 0;
-
         pointer-events: none;
     }
 
@@ -245,33 +257,8 @@ footer {
         transform: rotate(-135deg);
         top: -7px;
     }
-    .areaCont {
+    section {
         flex-direction: column;
         align-items: center;
-        width: 400px;
-        height: 600px;
-    }
-    .imagem img {
-        width: 250px;
-    }
-    .texto {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-        color: white;
-        font-size: 15px;
-    }
-    .texto h1 {
-        height: 20px;
-    }
-    .texto p {
-        height: 200px;
-    }
-    .texto a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
     }
 }

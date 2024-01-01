@@ -27,10 +27,17 @@ var curso = localStorage.getItem("rItem");
 if (curso == "Back-End") {
   document.getElementById('hUm').innerText = 'Back'
   document.getElementById('hDois').innerText = '-End'
+  function direc() {
+    window.location.href = "Trilhas/paginaBack.html"
+  }
+
 } else if (curso == "Front-End") {
   document.getElementById('hUm').innerText = 'Front'
   document.getElementById('hDois').innerText = '-End'
   document.getElementById('desc').innerText = "A área de desenvolvimento web front-end é a ponte que une os mundos do design e da programação. O profissional desenvolvedor front-end é o responsável por colocar em prática, através de códigos, o design de um site ou interface. Enquanto o web design projeta o visual de um site, o desenvolvimento front-end implementa esse design através de códigos, como HTML, CSS e JavaScript. Ou seja, é o front-end que coloca “para funcionar” toda a parte visual de uma interface, como a página de um site ou de um aplicativo."
+  function direc() {
+    window.location.href = "Trilhas/paginaFront.html"
+  }
 } else if (curso == "Full-Stack") {
   document.getElementById('hUm').innerText = 'Fullt'
   document.getElementById('hDois').innerText = '-Stack'

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rookie Coder Network | Front-End</title>
+    <link rel="stylesheet" href="../../src/css/trilhas.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../../index.html" class="logo"><img src="../../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="../paginaCursos.html">Cursos</a></li>
+                <li class="normie"> <a href="../paginaComunidade.html">Comunidade</a> </li>
+                <li class="normie"><a href="../paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="../paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="../paginaRegistro.html">Registre-se</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Trilha <span>Front-End</span></h1>
+        <section>
+
+            <div class="modulo">
+                <h2>Fundamentos</h2>
+                <div class="descrição">
+                    <p>Neste módulo, você ira aprender os conceitos básicos essenciais para construir uma base sólida no desenvolvimento front-end. Aqui estão alguns tópicos que seram abordados:</p>
+                    <h3>HTML (HyperText Markup Language):</h3>
+                    <ul>
+                        <li>Estrutura básica de uma página HTML.</li>
+                        <li>Tags e elementos HTML.</li>
+                        <li>Formulários e elementos de entrada.</li>
+                    </ul>
+                    <h3>CSS (Cascading Style Sheets):</h3>
+                    <ul>
+                        <li>Estilização de elementos HTML.</li>
+                        <li>Seletores CSS.</li>
+                        <li>Layouts básicos e posicionamento</li>
+                        <li>Responsividade e design para dispositivos móveis.</li>
+                    </ul>
+                    <h3>JavaScript (JS):</h3>
+                    <ul>
+                        <li>Introdução à programação JavaScript.</li>
+                        <li>Manipulação do DOM (Document Object Model).</li>
+                        <li>Eventos e interatividade.</li>
+                        <li>Noções básicas de AJAX para carregamento assíncrono.</li>
+                    </ul>
+                    <h3>Controle de Versão:</h3>
+                    <ul>
+                        <li>Uso básico de sistemas de controle de versão, como Git.</li>
+                        <li>Colaboração em projetos usando plataformas como GitHub.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+            <div class="modulo">
+                <h2>Intermediário</h2>
+                <div class="descrição">
+                    <p>No segundo módulo, você irá aprofundar seus conhecimentos e habilidades, explorando tópicos mais avançados e práticos.</p>
+                    <h3>Frameworks Front-End:</h3>
+                    <ul>
+                        <li>Introdução a frameworks populares, como React, Angular ou Vue.js.</li>
+                        <li>Compreensão de componentes e estado.</li>
+                        <li>Roteamento e manipulação de dados.</li>
+                    </ul>
+                    <h3>CSS Avançado:</h3>
+                    <ul>
+                        <li>Pré-processadores CSS (Sass ou Less).</li>
+                        <li>Animações e transformações CSS.</li>
+                        <li>Metodologias de organização de estilos, como BEM (Block, Element, Modifier).</li>
+                    </ul>
+                    <h3>JavaScript Avançado:</h3>
+                    <ul>
+                        <li>Programação assíncrona e Promises.</li>
+                        <li>Manipulação avançada do DOM.</li>
+                        <li>Introdução a ES6+ (Arrow functions, classes, destructuring, etc.).</li>
+                    </ul>
+                    <h3>Acessibilidade e Performance:</h3>
+                    <ul>
+                        <li>Desenvolvimento focado em acessibilidade.</li>
+                        <li>Otimização de desempenho para carregamento rápido de páginas.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+            <div class="modulo">
+                <h2>Avançado</h2>
+                <div class="descrição">
+                    <p>O terceiro módulo visa preparar você para desafios complexos e projetos mais avançados.</p>
+                    <h3>Arquitetura de Aplicações Front-End:</h3>
+                    <ul>
+                        <li>Padrões de design (por exemplo, MVC, MVVM).</li>
+                        <li>Estruturação de projetos escaláveis.</li>
+                    </ul>
+                    <h3>Testes e Qualidade de Código:</h3>
+                    <ul>
+                        <li>Testes unitários e de integração.</li>
+                        <li>Ferramentas de teste como Jest.</li>
+                        <li>Boas práticas de codificação e revisão de código.</li>
+                    </ul>
+                    <h3>Segurança Front-End:</h3>
+                    <ul>
+                        <li>Práticas de segurança em aplicações web.</li>
+                        <li>Proteção contra ataques comuns, como Cross-Site Scripting (XSS) e Cross-Site Request Forgery (CSRF).</li>
+                    </ul>
+                    <h3>Integração com Back-End:</h3>
+                    <ul>
+                        <li>Compreensão de como interagir com APIs RESTful.</li>
+                        <li>Autenticação e autorização.</li>
+                        <li>Uso de bibliotecas como Axios para requisições HTTP.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+        </section>
+    </main>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+        const anco = document.querySelector(".anco");
+    
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
