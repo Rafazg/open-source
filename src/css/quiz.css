@@ -196,7 +196,7 @@ h1{
   height: 150px;
 }
 /* ============ BODY STYLE ============ */
-@media (max-width: 750px) {
+@media (max-width: 1100px) {
   .hamburger {
       display: block;
       z-index: 1;
@@ -209,7 +209,7 @@ h1{
       width: 100vw;
       height: 100vh;
       background: #022941;
-      clip-path: circle(100px at 90% -16%);
+      clip-path: circle(100px at 90% -25%);
       transition: 1s ease-out;
 
       flex-direction: column;
@@ -240,7 +240,7 @@ h1{
   /* Estilos ativos */
 
   .nav.active .nav-list {
-      clip-path: circle(1500px at 90% -16%);
+      clip-path: circle(1500px at 90% -25%);
       pointer-events: all;
   }
 

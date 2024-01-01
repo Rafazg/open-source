@@ -249,7 +249,7 @@ h1 {
 main {
     margin: 80px;
 }
-@media (max-width: 750px) {
+@media (max-width: 1100px) {
     .hamburger {
         display: block;
         z-index: 1;
@@ -262,7 +262,7 @@ main {
         width: 100vw;
         height: 100vh;
         background: #022941;
-        clip-path: circle(100px at 90% -16%);
+        clip-path: circle(100px at 90% -25%);
         transition: 1s ease-out;
 
         flex-direction: column;
@@ -293,7 +293,7 @@ main {
     /* Estilos ativos */
 
     .nav.active .nav-list {
-        clip-path: circle(1500px at 90% -16%);
+        clip-path: circle(1500px at 90% -25%);
         pointer-events: all;
     }
 
@@ -319,5 +319,23 @@ main {
     main {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .numberText {
+        margin: 20px 0;
+    }
+    .slideshowContainer {
+        width: 330px;
+    }
+    .mySlides {
+        width: 330px;
+    }
+    .text {
+        width: 330px;
+        margin: 20px 0;
+    }
+    .btnmov {
+        gap: 20px;
     }
 }

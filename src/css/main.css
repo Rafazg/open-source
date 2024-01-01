@@ -233,7 +233,6 @@ a {
     filter: brightness(80%);
 }
 .triangulo {
-    position: relative;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-bottom: 56px solid #0da643;
@@ -252,38 +251,27 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.mobileBtn {
-    display: none;
-    margin-top: 40px;
-    width: 145px;
-    height: 40px;
-    background-color: #0da643;
-    color: white;
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
-@media (max-width: 750px) {
+
+@media (max-width: 1100px) {
     .hamburger {
         display: block;
         z-index: 1;
     }
 
     .nav-list {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100vw;
         height: 100vh;
         background: #022941;
-        clip-path: circle(100px at 90% -16%);
+        clip-path: circle(100px at 90% -25%);
         transition: 1s ease-out;
 
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         gap: 0;
-
         pointer-events: none;
     }
 
@@ -307,7 +295,7 @@ footer {
     /* Estilos ativos */
 
     .nav.active .nav-list {
-        clip-path: circle(1500px at 90% -16%);
+        clip-path: circle(1500px at 90% -25%);
         pointer-events: all;
     }
 
@@ -391,12 +379,5 @@ footer {
         width: 145px;
         height: 40px;
         font-size: 15px;
-    }
-    .anco {
-        display: none;
-    }
-    .mobileBtn {
-        display: block;
-        margin-top: 10px;
     }
 }

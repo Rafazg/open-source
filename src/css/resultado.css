@@ -328,4 +328,10 @@ p {
         transform: rotate(-135deg);
         top: -7px;
     }
+    .desc {
+        width: 500px;
+    }
+    main {
+        margin: 20px 0;
+    }
   }
