@@ -192,7 +192,6 @@ p {
 .carousel {
     display: flex;
     max-width: 450px;
-    position: relative;
     margin: auto;
 }
 
@@ -258,10 +257,7 @@ p {
     justify-content: center;
     color: white;
 }
-@media (max-width: 750px) {
-    main {
-      flex-direction: column; /* ou qualquer valor desejado para dispositivos móveis */
-    }
+@media (max-width: 1100px) {
     .hamburger {
         display: block;
         z-index: 1;
@@ -328,6 +324,9 @@ p {
         transform: rotate(-135deg);
         top: -7px;
     }
+    main {
+        flex-direction: column;
+      }
     .desc {
         width: 500px;
     }

@@ -57,9 +57,14 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
-
-        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+        const anco = document.querySelector(".anco");
+    
+        hamburger.addEventListener("click", () => {
+            anco.style.display = (anco.style.display === "none") ? "flex" : "none";
+            nav.classList.toggle("active");
+        });
     </script>
+    
 </body>
 
 </html>
