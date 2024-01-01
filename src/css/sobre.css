@@ -158,14 +158,13 @@ h1 {
 }
 .btnmov {
     display: flex;
-    gap: 60px;
+    gap: 50px;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
-    position: relative;
     top: 50%;
     width: auto;
     margin-top: -22px;
@@ -316,5 +315,9 @@ main {
     .nav.active .hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
     }
 }

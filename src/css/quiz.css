@@ -288,9 +288,13 @@ h1{
     height: 650px;
   }
   .btnGrupo1 {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
   }
   .btnGrupo2 {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
   }
 }
