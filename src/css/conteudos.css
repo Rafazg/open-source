@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body {
   background-color: #171810;
   height: 100vh;
@@ -112,7 +120,7 @@ main {
   justify-content: baseline;
   align-items: center;
   height: 100%;
-  border: 2px solid red;
+  font-family: Arial, Helvetica, sans-serif;
 }
 main h1 {
     color: #fff;
@@ -131,7 +139,7 @@ main span {
   height: 100%;
 }
 /*===========YOUTUBE===========*/
-.videoContainer1 {
+.videoContainer1 a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,8 +148,9 @@ main span {
   background-color: #022941;
   border-radius: 20px;
   gap: 20px;
+  text-decoration: none;
 }
-.videoContainer2 {
+.videoContainer2 a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +160,7 @@ main span {
     border-radius: 20px;
     gap: 20px;
     margin-top: 20px;
-    
+    text-decoration: none;
 }
 
 .textvideoConteiner1 {
@@ -180,7 +189,7 @@ main span {
 /*===========YOUTUBE===========*/
 
 /*===========ARTIGO===========*/
-.artigoContainer1 {
+.artigoContainer1 a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,9 +199,10 @@ main span {
     border-radius: 20px;
     gap: 20px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
-.artigoContainer2 {
+.artigoContainer2 a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,6 +212,7 @@ main span {
     border-radius: 20px;
     gap: 20px;
     margin-top: 20px;
+    text-decoration: none;
 }
 .artgConteiner1 {
     width: 151px;
@@ -225,12 +236,13 @@ main span {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    
 }
 
 /*===========ARTIGO===========*/
 
 
-.paginaContainer1 {
+.paginaContainer1 a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,6 +252,7 @@ main span {
     border-radius: 20px;
     gap: 20px;
     margin-top: 20px;
+    text-decoration: none;
 }
 .textContainer1 {
     width: 151px;
@@ -260,7 +273,7 @@ main span {
   width: 80px;
   height: 60px;
 }
-.videoContainer2 img {
+.videoContainer2 img{
     width: 80px;
     height: 60px;
 }

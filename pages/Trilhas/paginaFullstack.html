@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rookie Coder Network | Back-End</title>
+    <link rel="stylesheet" href="../../src/css/trilhas.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="../../index.html" class="logo"><img src="../../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="../paginaCursos.html">Cursos</a></li>
+                <li class="normie"> <a href="../paginaComunidade.html">Comunidade</a> </li>
+                <li class="normie"><a href="../paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="../paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="../paginaRegistro.html">Registre-se</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Trilha <span>Full-Stack</span></h1>
+        <section>
+
+            <div class="modulo">
+                <h2>Fundamentos</h2>
+                <div class="descrição">
+                    <p>Neste módulo inicial, você ira adquirir as habilidades básicas necessárias para entender tanto o front-end quanto o back-end.</p>
+                    <h3>HTML, CSS e JavaScript:</h3>
+                    <ul>
+                        <li>Revisão dos conceitos fundamentais do desenvolvimento front-end.</li>
+                        <li>Construção de páginas web interativas.</li>
+                    </ul>
+                    <h3>Linguagem de Programação (Exemplo: JavaScript, Python, c#):</h3>
+                    <ul>
+                        <li>Introdução à linguagem de programação para desenvolvimento tanto no front-end quanto no back-end.</li>
+                        <li>Manipulação do DOM e execução de scripts no servidor (Node.js, por exemplo).</li>
+                    </ul>
+                    <h3>Noções Básicas de Bancos de Dados:</h3>
+                    <ul>
+                        <li>Introdução a bancos de dados relacionais e NoSQL.</li>
+                        <li>Execução de operações CRUD (Create, Read, Update, Delete).</li>
+                    </ul>
+                    <h3>Integração Front-End e Back-End:</h3>
+                    <ul>
+                        <li>Construção de APIs simples para serem consumidas no front-end.</li>
+                        <li>Compreensão básica da comunicação entre front-end e back-end.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+            <div class="modulo">
+                <h2>Intermediário</h2>
+                <div class="descrição">
+                    <p>O segundo módulo aprofunda os conhecimentos, permitindo que os alunos construam aplicações mais complexas e integradas.</p>
+                    <h3>Frameworks Front-End e Back-End:</h3>
+                    <ul>
+                        <li>Exploração de frameworks back-end populares, como Express (Node.js), Flask (Python), Django (Python), Ruby on Rails (Ruby), etc.</li>
+                        <li>Utilização de frameworks back-end populares, como Express (Node.js), Django (Python), etc.</li>
+                    </ul>
+                    <h3>Bancos de Dados Avançados:</h3>
+                    <ul>
+                        <li>Modelagem avançada de dados.</li>
+                        <li>Otimização de consultas e transações.</li>
+                    </ul>
+                    <h3>Autenticação e Autorização Completa:</h3>
+                    <ul>
+                        <li>Implementação de sistemas de autenticação seguros.</li>
+                        <li>Controle de acesso e autorização em diferentes partes da aplicação.</li>
+                    </ul>
+                    <h3>Desenvolvimento Responsivo e Mobile:</h3>
+                    <ul>
+                        <li>Construção de aplicações responsivas para diversos dispositivos.</li>
+                        <li>Introdução ao desenvolvimento mobile.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+            <div class="modulo">
+                <h2>Avançado</h2>
+                <div class="descrição">
+                    <p>O terceiro módulo prepara você para assumir projetos completos, compreendendo a arquitetura e a segurança de ponta a ponta.</p>
+                    <h3>Arquitetura Full-Stack:</h3>
+                    <ul>
+                        <li>Implementação de arquiteturas avançadas como Microservices ou Serverless.</li>
+                        <li>Estratégias para integração eficiente entre front-end e back-end.</li>
+                    </ul>
+                    <h3>Segurança Completa da Aplicação:</h3>
+                    <ul>
+                        <li>Práticas de segurança em todas as camadas da aplicação.</li>
+                        <li>Proteção contra ameaças comuns em ambientes web.</li>
+                    </ul>
+                    <h3>Otimização de Desempenho:</h3>
+                    <ul>
+                        <li>Estratégias para otimização de desempenho tanto no front-end quanto no back-end.</li>
+                        <li>Utilização de ferramentas para análise de desempenho.</li>
+                    </ul>
+                    <h3>Projeto Full-Stack:</h3>
+                    <ul>
+                        <li>Desenvolvimento de um projeto completo, desde a concepção até a implementação.</li>
+                        <li>Implementação de boas práticas de desenvolvimento colaborativo.</li>
+                    </ul>
+                </div>
+                <button>APRENDER</button>
+            </div>
+
+        </section>
+    </main>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+        const anco = document.querySelector(".anco");
+    
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

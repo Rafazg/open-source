@@ -159,7 +159,7 @@ let result = '';
             localStorage.setItem("rItem", result)
             window.location.href = "../pages/paginaResultado.html"
         } else if (cienD == desnM && cienD != 0 && desnM != 0){
-            result = "Analise de Dados"
+            result = "Ciência de Dados"
             localStorage.setItem("rItem", result)
             window.location.href = "../pages/paginaResultado.html"
         } else if (desnG == fullStack && desnG != 0 && fullStack != 0){
@@ -167,7 +167,7 @@ let result = '';
             localStorage.setItem("rItem", result)
             window.location.href = "../pages/paginaResultado.html"
         } else {
-            result = "Desenvolvimento de Software"
+            result = "Full-Stack"
             localStorage.setItem("rItem", result)
             window.location.href = "../pages/paginaResultado.html"
         }
