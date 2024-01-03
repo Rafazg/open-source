@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-/* ============ HEADER STYLE ============ */
+/* ============ HEADER STYLE // Nav-menu  ============ */
 a {
     text-decoration: none;
 }
@@ -118,156 +118,12 @@ a {
     position: relative;
     transition: 0.3s;
 }
+
 /* ============ HEADER STYLE ============ */
-* {
-    box-sizing: border-box
-}
-h1 {
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-}
-/* Slideshow container */
-.slideshowContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    margin: auto;
-}
+/* ============ MAIN STYLE ============ */
 
-/* Hide the images by default */
-.mySlides {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.imageP {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.imageP img{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-}
-.btnmov {
-    display: flex;
-    gap: 50px;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #0da643;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-    margin: 20px;
-    width: 400px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #f2f2f2;
-    font-size: 15px;
-    text-align: justify;
-    gap: 20px;
-}
-.linkedinGithub{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 400px;
-    gap: 30px;
-    list-style-type: none;
-    font-size: 40px;
-}
-.linkedinGithub a {
-    color: white;
-}
-.linkedinGithub a:hover {
-    color: #0da643;
-}
-
-/* Number text (1/3 etc) */
-.numberText {
-    margin: 20px;
-    text-align: center;
-    color: #f2f2f2;
-    font-size: 20px;
-    padding: 8px 12px;
-    top: 0;
-}
-
-.next {
-    text-align: end;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #0da643;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #022941;
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-main {
-    margin: 80px;
-}
+/* ============ MAIN STYLE ============ */
+/* ============ MOBILE STYLE ============ */
 @media (max-width: 1100px) {
     .hamburger {
         display: block;
@@ -288,7 +144,6 @@ main {
         justify-content: space-around;
         align-items: center;
         gap: 0;
-
         pointer-events: none;
     }
 
@@ -335,32 +190,20 @@ main {
         transform: rotate(-135deg);
         top: -7px;
     }
-    main {
-        display: flex;
+
+    section {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
-    .numberText {
-        margin: 20px 0;
+
+    .conteudo {
+        width: 380px;
     }
-    .slideshowContainer {
-        width: 330px;
-    }
-    .mySlides {
-        width: 330px;
-    }
-    .text {
-        width: 330px;
-        margin: 20px 0;
-    }
-    .btnmov {
-        gap: 20px;
-    }
-    .linkedinGithub{
-        width: 330px;
-    }
+
 }
+
+/* ============ MOBILE STYLE ============ */
+/* ============ FOOTER ============ */
 footer {
     display: flex;
     flex-direction: column;
@@ -371,23 +214,29 @@ footer {
     color: #a0a0a0;
     background-color: #202020;
 }
-.social-logo{
+
+.social-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 50px;
     list-style-type: none;
     gap: 50px;
     font-size: 40px;
 }
+
 .social-logo a {
     color: #ffffff;
 }
-.text-logos{
+
+.text-logos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 400px;
     height: 100px;
-} 
+}
+
+/* ============ FOOTER ============ */
