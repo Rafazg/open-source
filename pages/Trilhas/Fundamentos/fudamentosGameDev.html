@@ -4,53 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rookie Coder Network | Main-Page</title>
-    <link rel="stylesheet" href="src/css/main.css">
+    <title>Rookie Coder Network | Fundamentos Game Dev</title>
+    <link rel="stylesheet" href="../../../src/css/conteudos.css">
 </head>
 
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="index.html" class="logo"><img src="assets/imagens/Rokie.png" alt=""></a>
+            <a href="../../../index.html" class="logo"><img src="../../../assets/imagens/Rokie.png" alt=""></a>
             <button class="hamburger"></button>
             <ul class="nav-list">
-                <li class="normie"><a href="pages/paginaCursos.html">Cursos</a></li>
-                <li class="normie"><a href="pages/paginaSobre.html">Quem Somos</a></li>
-                <li class="normie"><a href="pages/paginaEntrar.html">Entrar</a></li>
-                <li class="especial"><a href="pages/paginaRegistro.html">Registre-se</a></li>
+                <li class="normie"><a href="../../paginaSobre.html">Página Principal</a></li>
+                <li class="normie"><a href="../../paginaCursos.html">Cursos</a></li>
+                <li class="normie"><a href="../../paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="../../paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="../../paginaRegistro.html">Registre-se</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="mainTop">
-            <div class="slogan">
-                <h1>JUNTOS, VAMOS TRANSFORMAR <span>CÓDIGOS</span> EM <span>CONQUISTAS!</span></h1>
-                <p>Empoderando novos desenvolvedores a trilharem seu caminho no mundo da programação!</p>
-                <a href="pages/paginaCursos.html"><button>BORA COMEÇAR!</button></a>
+        <section>
+            <h1>Fundamentos <span>Game-Dev</span></h1>
+            <div class="conteudo">
+                <img src="../../../assets/imagens/youtube.png">
+                <div class="info">
+                    <p>Duração: 25 minutos</p>
+                    <p>Autor: James Peter</p>
+                    <p>Conteúdo: JavaScriot</p>
+                </div>
             </div>
-            <div class="imgTop">
-                <img src="assets/imagens/MainPage1.png" alt="">
+            <div class="conteudo">
+                <img src="../../../assets/imagens/artigo.png">
+                <div class="info">
+                    <p>Autor: Isabela</p>
+                    <p>Titulo: Como fazer projetos no Figma</p>
+                    <p>Páginas: 10</p>
+                </div>
             </div>
-        </section>
-        <section class="mainEnd">
-            <div class="imgEnd">
-                <img src="assets/imagens/MainPage2.png" alt="">
-            </div>
-            <div class="sloganQuiz">
-                <h1><span>ENCONTRE-SE </span>NA ÁREA DE <span>TI</span></h1>
-                <p>Faça o nosso teste vocacional, descubra sua area e dê um play em sua carreira.</p>
-                <div class="playbtn">
-                    <a class="anco" href="pages/paginaQuiz.html">
-                        <div class="circulo">
-                            <div class="triangulo"></div>
-                        </div>
-                    </a>
+            <div class="conteudo">
+                <img src="../../../assets/imagens/site.png">
+                <div class="info">
+                    <p>Site: Alura</p>
+                    <p>Assunto: Segurança de Dados</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-
         <div class="footer-logos">
             <div class="social-logo">
                 <li class="normie">
@@ -74,7 +74,7 @@
             <div class="text-logos">
                 <p>Info ° Suporte ° Marketing</p>
                 <p>Termos de Uso ° Politica de Privacidade</p>
-                
+
             </div>
         </div>
         <p>&copy;- Rookie Coder Network</p>
@@ -82,11 +82,9 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
-        const anco = document.querySelector(".anco");
         const socialLogo = document.querySelector(".social-logo")
 
         hamburger.addEventListener("click", () => {
-            anco.style.display = (anco.style.display === "none") ? "flex" : "none";
             socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
             nav.classList.toggle("active");
         });
@@ -97,7 +95,6 @@
 
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
     </script>
-
 </body>
 
 </html>

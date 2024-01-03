@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rookie Coder Network | Back-End</title>
     <link rel="stylesheet" href="../../src/css/trilhas.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="nav">
@@ -17,7 +19,7 @@
                 <li class="normie"><a href="../paginaSobre.html">Quem Somos</a></li>
                 <li class="normie"><a href="../paginaEntrar.html">Entrar</a></li>
                 <li class="especial"><a href="../paginaRegistro.html">Registre-se</a></li>
-                
+
             </ul>
         </nav>
     </header>
@@ -29,13 +31,14 @@
                 <h2>Fundamentos</h2>
                 <div class="descrição">
                     <p>
-                        Os fundamentos na ciência de dados são os conceitos e habilidades essenciais que formam a 
-                        base para a compreensão e prática dessa disciplina. 
-                    </p> 
-                
+                        Os fundamentos na ciência de dados são os conceitos e habilidades essenciais que formam a
+                        base para a compreensão e prática dessa disciplina.
+                    </p>
+
                     <h3>Linguagens de Programação:</h3>
                     <ul>
-                        <li>Escolha de uma linguagem apropriada para game development, como C# (Unity), C++ (Unreal Engine)</li>
+                        <li>Escolha de uma linguagem apropriada para game development, como C# (Unity), C++ (Unreal
+                            Engine)</li>
                         <li>Sintaxe básica e estruturas de controle.</li>
                     </ul>
                     <h3>Ambiente de Desenvolvimento:</h3>
@@ -52,16 +55,17 @@
                     <ul>
                         <li>Compreensão dos princípios básicos de física aplicada a jogos.</li>
                         <li>Uso de motores de física em engines.</li>
-                        
+
                     </ul>
                 </div>
-                <button>APRENDER</button>
+                <a href="Fundamentos/fudamentosGameDev.html"><button>APRENDER</button></a>
             </div>
 
             <div class="modulo">
                 <h2>Intermediário</h2>
                 <div class="descrição">
-                    <p>O segundo módulo aprofunda os conhecimentos, permitindo que os alunos construam aplicações mais complexas e integradas.</p>
+                    <p>O segundo módulo aprofunda os conhecimentos, permitindo que os alunos construam aplicações mais
+                        complexas e integradas.</p>
                     <h3>Desenvolvimento de Gameplay:</h3>
                     <ul>
                         <li>Implementação de mecânicas de jogo.</li>
@@ -94,7 +98,8 @@
             <div class="modulo">
                 <h2>Avançado</h2>
                 <div class="descrição">
-                    <p>O terceiro módulo prepara você para assumir projetos completos, compreendendo a arquitetura e a segurança de ponta a ponta.</p>
+                    <p>O terceiro módulo prepara você para assumir projetos completos, compreendendo a arquitetura e a
+                        segurança de ponta a ponta.</p>
                     <h3>Otimização de Desempenho:</h3>
                     <ul>
                         <li>Perfil de desempenho e otimização de código.</li>
@@ -161,9 +166,10 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
-        const anco = document.querySelector(".anco");
-    
+        const socialLogo = document.querySelector(".social-logo")
+
         hamburger.addEventListener("click", () => {
+            socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
             nav.classList.toggle("active");
         });
     </script>
@@ -174,4 +180,5 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
     </script>
 </body>
+
 </html>

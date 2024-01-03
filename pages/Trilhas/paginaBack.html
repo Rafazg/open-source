@@ -53,7 +53,7 @@
                         <li>Construção de APIs simples usando frameworks como Express (Node.js) ou Flask (Python).</li>
                     </ul>
                 </div>
-                <button>APRENDER</button>
+                <a href="Fundamentos/fundamentosBack.html"><button>APRENDER</button></a>
             </div>
 
             <div class="modulo">
@@ -153,9 +153,10 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
-        const anco = document.querySelector(".anco");
+        const socialLogo = document.querySelector(".social-logo")
 
         hamburger.addEventListener("click", () => {
+            socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
             nav.classList.toggle("active");
         });
     </script>

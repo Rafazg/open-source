@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rookie Coder Network | Back-End</title>
     <link rel="stylesheet" href="../../src/css/trilhas.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="nav">
@@ -17,7 +19,7 @@
                 <li class="normie"><a href="../paginaSobre.html">Quem Somos</a></li>
                 <li class="normie"><a href="../paginaEntrar.html">Entrar</a></li>
                 <li class="especial"><a href="../paginaRegistro.html">Registre-se</a></li>
-                
+
             </ul>
         </nav>
     </header>
@@ -28,9 +30,10 @@
             <div class="modulo">
                 <h2>Fundamentos</h2>
                 <div class="descrição">
-                    <p>Os fundamentos no contexto de desenvolvimento mobile referem-se aos conceitos e habilidades básicas que um desenvolvedor precisa adquirir antes de avançar para tópicos mais complexos.</p>
+                    <p>Os fundamentos no contexto de desenvolvimento mobile referem-se aos conceitos e habilidades
+                        básicas que um desenvolvedor precisa adquirir antes de avançar para tópicos mais complexos.</p>
                     <h3></h3>
-                   
+
                     <h3>Introdução à Programação:</h3>
                     <ul>
                         <li>Conceitos básicos de lógica de programação.</li>
@@ -38,7 +41,8 @@
                     </ul>
                     <h3>Aprendendo uma Linguagem de Programação:</h3>
                     <ul>
-                        <li>Escolha uma linguagem de programação para desenvolvimento mobile (ex: Kotlin ou Java para Android, Swift ou Objective-C para iOS).</li>
+                        <li>Escolha uma linguagem de programação para desenvolvimento mobile (ex: Kotlin ou Java para
+                            Android, Swift ou Objective-C para iOS).</li>
                         <li>Sintaxe básica e estruturas de dados.</li>
                     </ul>
                     <h3>Desenvolvimento para Plataformas Móveis:</h3>
@@ -54,7 +58,8 @@
             <div class="modulo">
                 <h2>Intermediário</h2>
                 <div class="descrição">
-                    <p>O segundo módulo aprofunda os conhecimentos, permitindo que os alunos construam aplicações mais complexas e integradas.</p>
+                    <p>O segundo módulo aprofunda os conhecimentos, permitindo que os alunos construam aplicações mais
+                        complexas e integradas.</p>
                     <h3>Desenvolvimento de Aplicações Nativas:</h3>
                     <ul>
                         <li>Aprofundamento nas APIs nativas das plataformas (Android SDK, iOS SDK).</li>
@@ -82,7 +87,8 @@
             <div class="modulo">
                 <h2>Avançado</h2>
                 <div class="descrição">
-                    <p>O terceiro módulo prepara você para assumir projetos completos, compreendendo a arquitetura e a segurança de ponta a ponta.</p>
+                    <p>O terceiro módulo prepara você para assumir projetos completos, compreendendo a arquitetura e a
+                        segurança de ponta a ponta.</p>
                     <h3>Desenvolvimento Multiplataforma: </h3>
                     <ul>
                         <li>Frameworks como Flutter ou React Native.</li>
@@ -104,7 +110,7 @@
                         <li>Injeção de dependência e inversão de controle.</li>
                     </ul>
                 </div>
-                <button>APRENDER</button>
+                <a href="Fundamentos/fundamentosMobile.html"><button>APRENDER</button></a>
             </div>
 
         </section>
@@ -144,9 +150,10 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
-        const anco = document.querySelector(".anco");
-    
+        const socialLogo = document.querySelector(".social-logo")
+
         hamburger.addEventListener("click", () => {
+            socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
             nav.classList.toggle("active");
         });
     </script>
@@ -157,4 +164,5 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
     </script>
 </body>
+
 </html>

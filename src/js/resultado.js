@@ -1,7 +1,11 @@
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
+const socialLogo = document.querySelector(".social-logo")
 
-hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+hamburger.addEventListener("click", () => {
+  socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
+  nav.classList.toggle("active");
+});
 //cursos
 let slideIndex = 1;
 showSlides(slideIndex);
