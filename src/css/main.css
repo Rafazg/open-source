@@ -239,12 +239,41 @@ a {
     transform: rotate(90deg);
     margin-left: 10px;
 }
+
+
+/* ============ FOOTER ============ */
 footer {
     display: flex;
-    align-items: end;
+    flex-direction: column;
     justify-content: center;
-    color: white;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    color: #a0a0a0;
+    background-color: #202020;
 }
+.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 40px;
+}
+.social-logo a {
+    color: #ffffff;
+}
+.text-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+} 
+/* ============ FOOTER ============ */  
 .anco {
     margin: 20px;
     display: flex;

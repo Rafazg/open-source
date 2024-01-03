@@ -262,3 +262,38 @@ section {
         align-items: center;
     }
 }
+
+/* ============ FOOTER ============ */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    color: #a0a0a0;
+    background-color: #202020;
+    margin-top: 80px;
+}
+.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 40px;
+}
+.social-logo a {
+    color: #ffffff;
+}
+.text-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+} 
+/* ============ FOOTER ============ */  
