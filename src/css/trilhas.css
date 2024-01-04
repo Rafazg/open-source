@@ -346,7 +346,7 @@ footer {
 
 .prev,
 .next {
-    margin: 50px;
+    margin: 15px;
     height: 110px;
     display: flex;
     justify-content: center;

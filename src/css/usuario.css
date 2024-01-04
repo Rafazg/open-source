@@ -8,6 +8,7 @@
 body {
     background-color: #171810;
     height: 100vh;
+    color: white;
 }
 
 /* ============ HEADER STYLE // Nav-menu  ============ */
@@ -121,6 +122,77 @@ a {
 
 /* ============ HEADER STYLE ============ */
 /* ============ MAIN STYLE ============ */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+h1 {
+    font-weight: bold;
+}
+h2 {
+    font-weight: lighter;
+}
+
+.usuarioInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.usuarioInfo button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0da643;
+    color: white;
+    cursor: pointer;
+}
+.usuarioInfo button:hover {
+    color: #0da643;
+    background-color: #fff;
+}
+.usuarioInfo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: #0da643 solid 5px;
+}
+.info {
+    color: white;
+    text-align: justify;
+    background-color: #0da643;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.userCursos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    width: 420px;
+    height: 280px;
+}
+.cdivs {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.cdivs img {
+    object-fit: cover;
+    width: 420px;
+    height: 240px;
+}
 
 /* ============ MAIN STYLE ============ */
 /* ============ MOBILE STYLE ============ */
@@ -198,6 +270,10 @@ a {
 
     .conteudo {
         width: 380px;
+    }
+    main {
+        flex-direction: column;
+        gap: 45px;
     }
 
 }
