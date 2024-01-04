@@ -154,15 +154,15 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 400px;
+    width: 650px;
     background-color: #022941;
     border-radius: 20px;
 }
 .descrição {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 340px;
+    gap: 20px;
+    width: 590px;
 }
 .descrição ul {
     margin-left: 30px;
@@ -299,9 +299,10 @@ footer {
 /* ============ FOOTER ============ */  
 .carousel {
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 450px;
     margin: auto;
-    border: 2px solid red;
 }
 
 .curso {
