@@ -16,6 +16,7 @@
             <button class="hamburger"></button>
             <ul class="nav-list">
                 <li class="normie"><a href="../index.html">Página Principal</a></li>
+                <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
                 <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
                 <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
                 <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
@@ -37,19 +38,16 @@
             <div class="carrossel">
                 <h2>Em andamento</h2>
                 <div class="cdivs" id="cursos1">
-                    <img src="https://blog.b2bstack.com.br/wp-content/uploads/2022/01/front-end-banner.jpg">
-                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*QlMGfKShbqgs0cSGUkga5A.png">
-                    <img src="https://coodesh.com/blog/wp-content/uploads/2020/09/back-end-python-scaled.jpg">
-                    <img src="https://blog.cod3r.com.br/wp-content/uploads/2022/05/back-end-front-end-1024x535.png">
+                    <img src="../assets/imagens/Ciência de dadosF.png">
+                    <img src="../assets/imagens/Ciência de dadosI.png">
+                    <img src="../assets/imagens/Ciência de dadosA.png">
                 </div>
             </div>
             <div class="carrossel">
                 <h2>Concluidos</h2>
                 <div class="cdivs" id="cursos2">
-                    <img src="https://img.freepik.com/fotos-gratis/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.jpg?w=740&t=st=1704404061~exp=1704404661~hmac=bb42a2331447ecfa82fd580656fb5bbe839c9158cfff8864272f8be000e56426">
-                    <img src="https://img.freepik.com/fotos-gratis/colagem-de-fundo-de-programacao_23-2149901783.jpg?w=740&t=st=1704404147~exp=1704404747~hmac=570a689a57ab3bb932233955c0b67a7430b115b6f0fa36959eb51bec53baff38">
-                    <img src="https://img.freepik.com/fotos-gratis/conceito-de-colagem-de-html-e-css-com-pessoa_23-2150062008.jpg?w=740&t=st=1704404178~exp=1704404778~hmac=b22e934fb31828fca748243dbc92746ae1a46ab85b86b6021ee7d74bbf6f8f9a">
-                    <img src="https://img.freepik.com/fotos-gratis/conceito-de-colagem-de-html-e-css-com-pessoa_23-2150061972.jpg?w=740&t=st=1704404195~exp=1704404795~hmac=422dc4c2ff947eef26b75a41ab6389ad2f5626de4133093325ef75b7aae849f6">
+                    <img src="../assets/imagens/Full-StackF.png ">
+                    <img src="../assets/imagens/Full-StackI.png ">
                 </div>
             </div>
         </section>
@@ -88,9 +86,11 @@
         const hamburger = document.querySelector(".hamburger");
         const nav = document.querySelector(".nav");
         const socialLogo = document.querySelector(".social-logo")
+        const carrossel = document.querySelector(".userCursos")
 
         hamburger.addEventListener("click", () => {
             socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
+            carrossel.style.display = (carrossel.style.display === "none") ? "flex" : "none";
             nav.classList.toggle("active");
         });
     </script>

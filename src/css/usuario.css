@@ -192,6 +192,7 @@ h2 {
     object-fit: cover;
     width: 420px;
     height: 240px;
+    border-radius: 10px;
 }
 
 /* ============ MAIN STYLE ============ */

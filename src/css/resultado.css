@@ -172,7 +172,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 450px;
 }
 
 .recomendações button {
@@ -346,7 +346,7 @@ footer {
     }
 
     .desc {
-        width: 500px;
+        width: 450px;
     }
 
     main {

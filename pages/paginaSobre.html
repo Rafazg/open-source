@@ -16,6 +16,7 @@
             <ul class="nav-list">
                 <li class="normie"><a href="../index.html">Página Principal</a></li>
                 <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+                <li class="normie"><a href="paginaUsuario.html">Página do Usuario</a></li>
                 <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
                 <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
             </ul>
@@ -168,9 +169,11 @@
         const hamburger = document.querySelector(".hamburger");
     const nav = document.querySelector(".nav");
     const socialLogo = document.querySelector(".social-logo")
+    const linkedinGithub = document.querySelector('.linkedinGithub')
 
     hamburger.addEventListener("click", () => {
       socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
+      linkedinGithub.style.display = (linkedinGithub.style.display === "none") ? "flex" : "none";
       nav.classList.toggle("active");
     });
     </script>
