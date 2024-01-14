@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rookie Coder Network | Main-Page</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='src/css/main.css') }}">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/imagens/Rokie.ico') }}" type="image/x-icon">
 </head>
 
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="http://127.0.0.1:5000/" class="logo"><img src="{{ url_for('static', filename='assets/imagens/Rokie.png') }}"></a>
+            <a href="http://127.0.0.1:5000/" class="logo"><img src="{{ url_for('static', filename='assets/imagens/rokie.png') }}"></a>
             <button class="hamburger"></button>
             <ul class="nav-list">
                 <li class="normie"><a href="{{ url_for('static', filename='pages/paginaCursos.html') }}">Cursos</a></li>
