@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">,
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rookie Coder Network | Usuario</title>
+    <link rel="stylesheet" href="../src/css/usuario.css">
+    <script src="../src/js/user.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="http://127.0.0.1:5000/" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="normie"><a href="http://127.0.0.1:5000/">Página Principal</a></li>
+                <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+                <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+                <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+                <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="usuarioInfo">
+            <img src="../assets/imagens/isa.jpeg">
+            <button>Editar Perfil</button>
+            <div class="info">
+                <p>Nome: Isabela Castro</p>
+                <p>Cursos feitos: 7</p>
+                <p>Cursos em progresso: 2</p>
+            </div>
+        </section>
+        <section class="userCursos">
+            <h1>Meus Cursos</h1>
+            <div class="carrossel">
+                <h2>Em andamento</h2>
+                <div class="cdivs" id="cursos1">
+                    <img src="../assets/imagens/Ciência de dadosF.png">
+                    <img src="../assets/imagens/Ciência de dadosI.png">
+                    <img src="../assets/imagens/Ciência de dadosA.png">
+                </div>
+            </div>
+            <div class="carrossel">
+                <h2>Concluidos</h2>
+                <div class="cdivs" id="cursos2">
+                    <img src="../assets/imagens/Full-StackF.png ">
+                    <img src="../assets/imagens/Full-StackI.png ">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer-logos">
+
+            <div class="social-logo">
+                <li class="normie">
+                    <a href="https://chat.whatsapp.com/CJ2YVZHvjtZB6FfTfOQajc" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="normie">
+                    <a href="https://discord.gg/kKzvC6AQ" target="_blank">
+                        <ion-icon name="logo-discord"></ion-icon>
+                    </a>
+                </li>
+                <li class="normie">
+                    <a href="https://www.tiktok.com/@lolita00_00?_t=8ieNajYSY1W&_r=1" target="_blank">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                    </a>
+                </li>
+            </div>
+
+            <div class="text-logos">
+                <p>Info ° Suporte ° Marketing</p>
+                <p>Termos de Uso ° Politica de Privacidade</p>
+            </div>
+        </div>
+        <p>&copy;- Rookie Coder Network</p>
+    </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+        const socialLogo = document.querySelector(".social-logo")
+        const carrossel = document.querySelector(".userCursos")
+
+        hamburger.addEventListener("click", () => {
+            socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
+            carrossel.style.display = (carrossel.style.display === "none") ? "flex" : "none";
+            nav.classList.toggle("active");
+        });
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rookie Coder Network | Resultado Quiz</title>
+  <link rel="stylesheet" type="text/css" href="../src/css/resultado.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="http://127.0.0.1:5000/" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+      <button class="hamburger"></button>
+      <ul class="nav-list">
+        <li class="normie"><a href="http://127.0.0.1:5000/">Página Principal</a></li>
+        <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+        <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+        <li class="normie"><a href="paginaUsuario.html">Página do Usuario</a></li>
+        <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+        <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="desc">
+      <div class="nCurso">
+        <h1 id="hUm" class="corUm"></h1>
+        <h1 id="hDois" class="corDois"></h1>
+      </div>
+      <img src="../assets/imagens/resultado.png" alt="">
+      <p class="textdesc" id="desc">Um desenvolvedor back-end é um profissional de tecnologia da informação responsável
+        pela criação e manutenção da parte "invisível" de um aplicativo ou site, que lida com o processamento de dados,
+        lógica de negócios e interações com o servidor. Eles são fundamentais para garantir que os sistemas funcionem de
+        maneira eficiente e segura. Aqui estão as principais responsabilidades e tecnologias associadas a um
+        desenvolvedor back-end</p>
+    </div>
+    <div class="recomendações">
+      <div class="nCurso" style="flex-direction: column;">
+        <h1 class="corUm">CURSOS</h1>
+        <h1 class="corDois">RECOMENDADOS</h1>
+      </div>
+      <div class="carousel">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <div class="curso fade">
+          <div class="cursotxt" id="langName1"></div>
+          <img id="imageId1" class="cursoimg">
+        </div>
+        <div class="curso fade">
+          <div class="cursotxt" id="langName2"></div>
+          <img id="imageId2" class="cursoimg">
+        </div>
+        <div class="curso fade">
+          <div class="cursotxt" id="langName3"></div>
+          <img id="imageId3" class="cursoimg">
+        </div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <button onclick="direc()">Ver mais</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logos">
+
+      <div class="social-logo">
+        <li class="normie">
+          <a href="https://chat.whatsapp.com/CJ2YVZHvjtZB6FfTfOQajc" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+
+        <li class="normie">
+          <a href="https://discord.gg/kKzvC6AQ" target="_blank">
+            <ion-icon name="logo-discord"></ion-icon>
+          </a>
+        </li>
+        <li class="normie">
+          <a href="https://www.tiktok.com/@lolita00_00?_t=8ieNajYSY1W&_r=1" target="_blank">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+      </div>
+
+      <div class="text-logos">
+        <p>Info ° Suporte ° Marketing</p>
+        <p>Termos de Uso ° Politica de Privacidade</p>
+
+      </div>
+    </div>
+    <p>&copy;- Rookie Coder Network</p>
+  </footer>
+
+  <script src="../src/js/resultado.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+  </script>
+
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+  </script>
+</body>
+
+</html>

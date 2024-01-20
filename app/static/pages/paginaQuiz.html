@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Rookie Coder Network | Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../src/css/quiz.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="http://127.0.0.1:5000/" class="logo"><img src="../assets/imagens/Rokie.png" alt=""></a>
+      <button class="hamburger"></button>
+      <ul class="nav-list">
+        <li class="normie"><a href="http://127.0.0.1:5000/">Página Principal</a></li>
+        <li class="normie"><a href="paginaCursos.html">Cursos</a></li>
+        <li class="normie"><a href="paginaSobre.html">Quem Somos</a></li>
+        <li class="normie"><a href="paginaUsuario.html">Página do Usuario</a></li>
+        <li class="normie"><a href="paginaEntrar.html">Entrar</a></li>
+        <li class="especial"><a href="paginaRegistro.html">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="caixaPergunta">
+        <h1 id="numQ" class="PerguntN">Pergunta 01</h1>
+        <h2 id="question" class="perg">O que mais chama sua atenção ao pensar em desenvolvimento de software?</h2>
+      </div>
+
+      <div id="questions-container" class="questões">
+        <div class="btnGrupo1">
+          <button id="a" onclick="ffrontEnd(1)">Criar interfaces de usuário atraentes e interativas</button>
+          <button id="b" onclick="fbackEnd(1)">Desenvolver a lógica e a infraestrutura por trás das aplicações.</button>
+          <button id="c" onclick="fcienD(1)">Explorar e analisar dados para obter insights valiosos.</button>
+        </div>
+        <div class="btnGrupo2">
+          <button id="d" onclick="fdesnM(1)">Desenvolver aplicativos otimizados para dispositivos móveis.</button>
+          <button id="e" onclick="fdesnG(1)">Criar experiências imersivas em mundos virtuais.</button>
+          <button id="f" onclick="ffullStack(1)">Trabalhar em todas as partes do desenvolvimento de software, da
+            interface ao servidor.</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+
+    <div class="footer-logos">
+      <div class="social-logo">
+        <li class="normie">
+          <a href="https://chat.whatsapp.com/CJ2YVZHvjtZB6FfTfOQajc" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+
+        <li class="normie">
+          <a href="https://discord.gg/kKzvC6AQ" target="_blank">
+            <ion-icon name="logo-discord"></ion-icon>
+          </a>
+        </li>
+        <li class="normie">
+          <a href="https://www.tiktok.com/@lolita00_00?_t=8ieNajYSY1W&_r=1" target="_blank">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+      </div>
+
+      <div class="text-logos">
+        <p>Info ° Suporte ° Marketing</p>
+        <p>Termos de Uso ° Politica de Privacidade</p>
+
+      </div>
+    </div>
+    <p>&copy;- Rookie Coder Network</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const nav = document.querySelector(".nav");
+    const socialLogo = document.querySelector(".social-logo")
+
+    hamburger.addEventListener("click", () => {
+      socialLogo.style.display = (socialLogo.style.display === "none") ? "flex" : "none";
+      nav.classList.toggle("active");
+    });
+  </script>
+  <script src="../src/js/quizScript.js"></script>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+</script>
+
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+</script>
+
+</html>

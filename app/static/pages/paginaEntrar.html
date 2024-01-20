@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rookie Coder Network | Login</title>
+  <link rel="stylesheet" href="../src/css/entrar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="logoContainer">
+      <a href="http://127.0.0.1:5000/"><img src="../assets/imagens/Rokie.png" alt="" /></a>
+    </div>
+  </header>
+  <main>
+    <section class="login">
+      <h1>EN<span>TRAR</span></h1>
+      <div class="formulario">
+        <form action="/login" method="post">
+          
+          <div class="formu">
+            <div class="emailContainer">
+            <label for="email"><i class="fa fa-envelope" style="font-size:40px;color:#0da643"></i></label>
+            <input type="text" id="email" name="e-mail" placeholder="Email" required>
+            </div>
+            <div class="senhaContainer">
+            <label for="password"><i class="fa fa-lock" style="font-size:48px;color:#0da643; margin-right: 9px;"></i>
+            </label>
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+          </div>
+          <div class="btnLogin">
+          <button type="submit">Entrar</button>
+          </div>
+        </form>
+      </div>
+        <div class="segLoginContainer">
+        <img src="../assets/imagens/google.png" alt="">
+        <img src="../assets/imagens/github.png" alt="">
+        <div class="registroTextoContainer">
+          <p>Não tem uma conta? <a href="paginaRegistro.html">Registre-se</a></p>
+        </div>
+    </section>
+  </main>
+  
+</body>
+
+</html>
