@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__)
 app.secret_key = ''
@@ -10,7 +12,7 @@ class User(UserMixin):
         pass
 
 def load_user(user_id):
-        
+
         
         pass
 
@@ -26,6 +28,7 @@ def pagina_cursos():
 
 @app.route('/paginaEntrar')
 def pagina_entrar():
+        q
         return render_template('paginaEntrar.html')
 
 @app.route('/paginaQuiz')
